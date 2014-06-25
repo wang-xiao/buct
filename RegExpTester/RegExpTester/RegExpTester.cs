@@ -12,6 +12,7 @@ namespace RegExpTester
         [STAThread]
         static void Main()
         {
+            // 试试修改这里。。。
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmRegExpTester());
