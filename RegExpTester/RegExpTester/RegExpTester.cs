@@ -15,6 +15,7 @@ namespace RegExpTester
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmRegExpTester());
+            // 试试修改这里。。。
         }
     }
 }
