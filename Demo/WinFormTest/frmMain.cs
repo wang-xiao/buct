@@ -9,6 +9,7 @@ namespace WinFormTest
         public frmMain()
         {
             InitializeComponent();
+            m_Image = Properties.Resources.background;
         }
 
         private Image m_Image = null;
