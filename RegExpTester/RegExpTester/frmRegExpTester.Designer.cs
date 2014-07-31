@@ -49,6 +49,7 @@
             this.fraResult.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.fraOptions.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -70,13 +71,13 @@
             this.txtPattern.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtPattern.Location = new System.Drawing.Point(105, 3);
             this.txtPattern.Name = "txtPattern";
-            this.txtPattern.Size = new System.Drawing.Size(618, 21);
+            this.txtPattern.Size = new System.Drawing.Size(616, 21);
             this.txtPattern.TabIndex = 1;
             // 
             // cmdExecute
             // 
             this.cmdExecute.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cmdExecute.Location = new System.Drawing.Point(738, 3);
+            this.cmdExecute.Location = new System.Drawing.Point(737, 3);
             this.cmdExecute.Name = "cmdExecute";
             this.cmdExecute.Size = new System.Drawing.Size(75, 21);
             this.cmdExecute.TabIndex = 2;
@@ -132,7 +133,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 102F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 61.49733F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 38.50268F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 99F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 101F));
             this.tableLayoutPanel1.Controls.Add(this.txtReplacePattern, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.fraOptions, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.txtPattern, 1, 0);
@@ -158,7 +159,7 @@
             this.txtReplacePattern.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtReplacePattern.Location = new System.Drawing.Point(105, 30);
             this.txtReplacePattern.Name = "txtReplacePattern";
-            this.txtReplacePattern.Size = new System.Drawing.Size(618, 21);
+            this.txtReplacePattern.Size = new System.Drawing.Size(616, 21);
             this.txtReplacePattern.TabIndex = 6;
             // 
             // fraOptions
@@ -239,7 +240,7 @@
             // cmdReplace
             // 
             this.cmdReplace.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cmdReplace.Location = new System.Drawing.Point(738, 30);
+            this.cmdReplace.Location = new System.Drawing.Point(737, 30);
             this.cmdReplace.Name = "cmdReplace";
             this.cmdReplace.Size = new System.Drawing.Size(75, 21);
             this.cmdReplace.TabIndex = 2;
@@ -266,6 +267,7 @@
             this.fraOptions.PerformLayout();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
 
