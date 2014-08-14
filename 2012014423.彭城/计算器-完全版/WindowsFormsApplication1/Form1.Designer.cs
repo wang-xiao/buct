@@ -222,22 +222,24 @@
             // 
             // button17
             // 
+            this.button17.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button17.Location = new System.Drawing.Point(259, 58);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(75, 23);
             this.button17.TabIndex = 17;
             this.button17.Text = "←";
-            this.button17.UseVisualStyleBackColor = true;
+            this.button17.UseVisualStyleBackColor = false;
             this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
+            this.button18.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button18.Location = new System.Drawing.Point(178, 58);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(75, 23);
             this.button18.TabIndex = 18;
             this.button18.Text = "C";
-            this.button18.UseVisualStyleBackColor = true;
+            this.button18.UseVisualStyleBackColor = false;
             this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // textBox1
@@ -264,6 +266,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(344, 204);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
@@ -286,6 +290,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.KeyPreview = true;
+            this.MaximumSize = new System.Drawing.Size(360, 242);
+            this.MinimumSize = new System.Drawing.Size(360, 242);
             this.Name = "Form1";
             this.Text = "计算器-完全版";
             this.Load += new System.EventHandler(this.Form1_Load);
