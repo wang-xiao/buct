@@ -481,7 +481,7 @@ namespace WindowsFormsApplication1
             else
             {
                 
-                if (strNum2.Length == 0)
+                if (strNum2.Length == 1)
                     strNum2 = "0";
                 else
                     strNum2 = strNum2.Substring(0, strNum2.Length - 1);
