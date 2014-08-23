@@ -493,6 +493,10 @@ namespace WindowsFormsApplication1
 
         public void textBox1_TextChanged(object sender, EventArgs e)
         {
+            if (intNumPoint == 1)
+                textBox1.Text = strNum1;
+            else
+                textBox1.Text = strNum2;
             this.button15.Focus();
         }
 
