@@ -219,7 +219,7 @@ namespace WindowsFormsApplication1
                 douNum2 = Convert.ToDouble(strNum2);
                 textBox1.Text = strNum2;
             }
-            this.button15.Focus();
+           this.button15.Focus();
         }
 
         private void button7_Click(object sender, EventArgs e)//按7
@@ -520,6 +520,7 @@ namespace WindowsFormsApplication1
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
+          //  MessageBox.Show("sss");
             if(e.KeyChar==8)
                 button17_Click(null, null);
             switch (e.KeyChar)
