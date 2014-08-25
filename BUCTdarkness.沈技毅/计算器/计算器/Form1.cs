@@ -51,8 +51,7 @@ namespace 计算器{
         }
 
         public void caculate(Double x,Double y) {
-            switch (lab2.Text)
-            {
+            switch (lab2.Text){
                 case "+": y += x; break;
                 case "-": y -= x; break;
                 case "*": y *= x; break;
@@ -85,8 +84,8 @@ namespace 计算器{
                 if (cnt == 2) {
                     y = Convert.ToDouble(lab1.Text);
                     cnt = 1;
-                    lab2.Text = btn.Text;
                     caculate(x, y);
+                    lab2.Text = btn.Text;
                     return;
                 }
                 if (lab1.Text == "" && lab2.Text == "-") x = -x;
@@ -126,8 +125,8 @@ namespace 计算器{
                     {
                         y = Convert.ToDouble(lab1.Text);
                         cnt = 1;
-                        lab2.Text = key.ToString();
                         caculate(x, y);
+                        lab2.Text = key.ToString();
                         return;
                     }
                     if (lab1.Text == "" && lab2.Text == "-") x = -x;
@@ -147,7 +146,7 @@ namespace 计算器{
                 CLR();
             }
             else if (key == '\b') {
-                if (lab3.Text == "" && lab2.Text == "") return;
+                if (lab3.Text == "" && lab2.Text == ""||lab3.Text.Length-1<0) return;
                 lab3.Text = lab3.Text.Substring(0, lab3.Text.Length - 1);               
             }
         }
@@ -159,8 +158,7 @@ namespace 计算器{
             lab3.Text = x.ToString();
         }
 
-        private void CE_Click(object sender, EventArgs e)
-        {
+        private void CE_Click(object sender, EventArgs e){
             if (cnt > 0 && lab3.Text != ""){
                 lab3.Text = ""; cnt--;
             }
