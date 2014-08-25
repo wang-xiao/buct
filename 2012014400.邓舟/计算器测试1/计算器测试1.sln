@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "计算器测试1", "计算器测试1\计算器测试1.csproj", "{12C2A1B0-3E8F-4EE4-955B-5541AFE4A53B}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{82C26CFA-7CB2-4623-AF18-BBFA9AB27FC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12C2A1B0-3E8F-4EE4-955B-5541AFE4A53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C2A1B0-3E8F-4EE4-955B-5541AFE4A53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C2A1B0-3E8F-4EE4-955B-5541AFE4A53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C2A1B0-3E8F-4EE4-955B-5541AFE4A53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C26CFA-7CB2-4623-AF18-BBFA9AB27FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C26CFA-7CB2-4623-AF18-BBFA9AB27FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C26CFA-7CB2-4623-AF18-BBFA9AB27FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C26CFA-7CB2-4623-AF18-BBFA9AB27FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
