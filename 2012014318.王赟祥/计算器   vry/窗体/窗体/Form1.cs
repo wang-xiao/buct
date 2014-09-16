@@ -193,6 +193,7 @@ namespace 窗体
             string bb = textBox1.Text;
             int len1 =bb.Length;
 	        int s = 0;
+            len = 0;
 	        for(int i = 0;i < len1;)
             {
 		        switch(bb[i]){
@@ -219,6 +220,12 @@ namespace 窗体
             float ans ;
             ans = vry (a,len );
             textBox2.Text = ans.ToString();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
         }
 
 
