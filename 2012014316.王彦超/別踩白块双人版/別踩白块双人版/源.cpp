@@ -7,7 +7,6 @@
 
 #define MAXTASK 9999							// 定义游戏需要完成的黑块数量
 
-// 定义宏 __sprintf 自适应 vc6 与 vc2013
 #if _MSC_VER > 1200
 #define __sprintf(...) sprintf_s(__VA_ARGS__)
 #else
@@ -15,8 +14,6 @@
 #endif
 
 
-// 精确延时函数(可以精确到 1ms，精度 ±1ms)
-// 摘自 www.easyx.cn
 void HpSleep(int ms)
 {
 	static clock_t oldclock = clock();		// 静态变量，记录上一次 tick
@@ -430,8 +427,8 @@ void main()
 	setbkcolor(0x01bbfb);
 	cleardevice();
 
-	PLAYER p1("喜羊羊", "asdf", 38, 8);		// 创建游戏者 喜羊羊
-	PLAYER p2("灰太狼", "jkl;", 358, 8);	// 创建游戏者 灰太狼
+	PLAYER p1("Play1", "asdf", 38, 8);		// 创建游戏者 喜羊羊
+	PLAYER p2("Play2", "jkl;", 358, 8);	// 创建游戏者 灰太狼
 
 	char c = 0;
 
