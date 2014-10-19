@@ -14,7 +14,7 @@
     <ManifestCertificateThumbprint>409F87EEB652C4AC946AC0736F7A0E5F092E6E95</ManifestCertificateThumbprint>
     <ManifestKeyFile>RegExpTester_TemporaryKey.pfx</ManifestKeyFile>
     <GenerateManifests>true</GenerateManifests>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
